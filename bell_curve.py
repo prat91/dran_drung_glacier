@@ -11,6 +11,7 @@ sigma = data['z'].std()
 x = np.linspace(mu - 3*sigma, mu + 3*sigma, 100)
 y = 1/(sigma * np.sqrt(2 * np.pi)) * np.exp( - (x - mu)**2 / (2 * sigma**2) )
 
+
 # Plot the curve
 plt.plot(x, y)
 plt.xlabel('X-axis')
