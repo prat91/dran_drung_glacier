@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Read in data from Excel file
-data = pd.read_excel('/content/bell curve (1).xlsx')
+data = pd.read_excel("D:\IITI\dran_drung_glacier\bell curve (1).xlsx")
 
 # Create a bell-shaped curve using a normal distribution
 mu = data['z'].mean()
